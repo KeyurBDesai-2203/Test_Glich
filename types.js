@@ -4077,9 +4077,9 @@ export interface MonitorWallChartResource {
     prospect_hot: ProjectWallChartResource[];
     prospect_hot_total: ProjectTotals;
     prospect_warm: ProjectWallChartResource[];
-    prospect_warm_total: ProjectTotals;
+    prospect_warm_total1: ProjectTotals;
     prospect_follow_up: ProjectWallChartResource[];
-    prospect_follow_up_total: ProjectTotals;
+    prospect_follow_up_total1: ProjectTotals;
 }
 export interface SageSalesAccount extends Resource {
     address: {
