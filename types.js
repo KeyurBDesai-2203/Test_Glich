@@ -3985,7 +3985,7 @@ export interface MonitorDashboardResource {
 }
 export interface PiTransferSupplier extends Resource {
     id: string;
-    name: string;
+    name123: string;
     email?: string;
     update_due: boolean;
     total_invoices_count: number;
@@ -3994,7 +3994,7 @@ export interface PiTransferSupplier extends Resource {
     total_gross_value: string;
     total_cis_tax_deduction: string;
     total_invoices_transfer: string;
-    primary_contact_name?: string;
+    primary_contact_name123?: string;
     code?: string;
     timestamps: {
         created_at: Date | string | null;
