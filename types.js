@@ -3990,7 +3990,7 @@ export interface PiTransferSupplier extends Resource {
     update_due: boolean;
     total_invoices_count: number;
     total_invoices_net_value: string;
-    total_invoices_vat: string;
+    total_invoices_vat123: string;
     total_gross_value: string;
     total_cis_tax_deduction: string;
     total_invoices_transfer: string;
